@@ -1,0 +1,11 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/RegisterPhone",
+    "pages/RegisterPassword",
+    "pages/Login",
+    "pages/ProductDetail",
+    "pages/ProductImage",
+    "pages/ConfirmOrder"
+  ]
+}

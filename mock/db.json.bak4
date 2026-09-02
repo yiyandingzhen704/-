@@ -1,0 +1,978 @@
+{
+    "banners":  [
+                    {
+                        "id":  "1",
+                        "imageUrl":  "https://placehold.co/600x300/FF7043/FFFFFF/png?text=HUAWEI+Mate+60",
+                        "link":  "/goods/1",
+                        "title":  "HUAWEI Mate 60",
+                        "description":  "昆仑玻璃 卫星通话",
+                        "order":  1,
+                        "isActive":  true
+                    },
+                    {
+                        "id":  "2",
+                        "imageUrl":  "https://placehold.co/600x300/FF7043/FFFFFF/png?text=HUAWEI+P60+Pro",
+                        "link":  "/goods/2",
+                        "title":  "HUAWEI P60 Pro",
+                        "description":  "超感光影像",
+                        "order":  2,
+                        "isActive":  true
+                    },
+                    {
+                        "id":  "3",
+                        "imageUrl":  "https://placehold.co/600x300/FF7043/FFFFFF/png?text=HUAWEI+Watch+GT+4",
+                        "link":  "/goods/3",
+                        "title":  "HUAWEI Watch GT 4",
+                        "description":  "科学运动 健康管理",
+                        "order":  3,
+                        "isActive":  true
+                    }
+                ],
+    "goods":  [
+                  {
+                      "id":  "1",
+                      "name":  "HUAWEI Mate 60",
+                      "price":  6999,
+                      "originalPrice":  7499,
+                      "imageUrl":  "http://192.168.1.117:3000/images/mate60.png",
+                      "desc":  "华为 Mate 60 旗舰手机",
+                      "sales":  10234,
+                      "categoryId":  "phone"
+                  },
+                  {
+                      "id":  "2",
+                      "name":  "HUAWEI P60 Pro",
+                      "price":  6488,
+                      "originalPrice":  6988,
+                      "imageUrl":  "http://192.168.1.117:3000/images/p60-pro.png",
+                      "desc":  "华为 P60 Pro 影像旗舰",
+                      "sales":  8561,
+                      "categoryId":  "phone"
+                  },
+                  {
+                      "id":  "3",
+                      "name":  "HUAWEI Watch GT 4",
+                      "price":  1488,
+                      "originalPrice":  1688,
+                      "imageUrl":  "http://192.168.1.117:3000/images/watch-gt4.png",
+                      "desc":  "华为智能手表 GT 4",
+                      "sales":  5210,
+                      "categoryId":  "watch"
+                  },
+                  {
+                      "id":  "4",
+                      "name":  "HUAWEI FreeBuds Pro 3",
+                      "price":  1299,
+                      "originalPrice":  1499,
+                      "imageUrl":  "http://192.168.1.117:3000/images/freebuds-pro3.jpg",
+                      "desc":  "华为主动降噪耳机",
+                      "sales":  7634,
+                      "categoryId":  "audio"
+                  },
+                  {
+                      "id":  "5",
+                      "name":  "HUAWEI MatePad Pro 13.2",
+                      "price":  5699,
+                      "originalPrice":  5999,
+                      "imageUrl":  "http://192.168.1.117:3000/images/matepad-pro132.png",
+                      "desc":  "华为平板电脑",
+                      "sales":  3420,
+                      "categoryId":  "tablet"
+                  }
+              ],
+    "navigationMenus":  [
+                            {
+                                "id":  "1",
+                                "iconUrl":  "https://placehold.co/100x100/1E88E5/FFFFFF/png?text=Phone",
+                                "link":  "/goods?categoryId=phone",
+                                "title":  "手机",
+                                "order":  1,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "2",
+                                "iconUrl":  "https://placehold.co/100x100/8E24AA/FFFFFF/png?text=Tablet",
+                                "link":  "/goods?categoryId=tablet",
+                                "title":  "平板",
+                                "order":  2,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "3",
+                                "iconUrl":  "https://placehold.co/100x100/43A047/FFFFFF/png?text=Laptop",
+                                "link":  "/goods?categoryId=computer",
+                                "title":  "笔记本",
+                                "order":  3,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "4",
+                                "iconUrl":  "https://placehold.co/100x100/FB8C00/FFFFFF/png?text=Watch",
+                                "link":  "/goods?categoryId=watch",
+                                "title":  "穿戴",
+                                "order":  4,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "5",
+                                "iconUrl":  "https://placehold.co/100x100/00897B/FFFFFF/png?text=Screen",
+                                "link":  "/goods?categoryId=screen",
+                                "title":  "智慧屏",
+                                "order":  5,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "6",
+                                "iconUrl":  "https://placehold.co/100x100/00897B/FFFFFF/png?text=Audio",
+                                "link":  "/goods?categoryId=audio",
+                                "title":  "耳机",
+                                "order":  6,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "7",
+                                "iconUrl":  "https://placehold.co/100x100/546E7A/FFFFFF/png?text=Smart+Home",
+                                "link":  "/goods?categoryId=smarthome",
+                                "title":  "智能家居",
+                                "order":  7,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "8",
+                                "iconUrl":  "https://placehold.co/100x100/546E7A/FFFFFF/png?text=Router",
+                                "link":  "/goods?categoryId=router",
+                                "title":  "路由器",
+                                "order":  8,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "9",
+                                "iconUrl":  "https://placehold.co/100x100/546E7A/FFFFFF/png?text=Full+House",
+                                "link":  "/goods?categoryId=smarthome",
+                                "title":  "全屋智能",
+                                "order":  9,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "10",
+                                "iconUrl":  "https://placehold.co/100x100/546E7A/FFFFFF/png?text=Health",
+                                "link":  "/goods?categoryId=health",
+                                "title":  "运动健康",
+                                "order":  10,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "11",
+                                "iconUrl":  "https://placehold.co/100x100/546E7A/FFFFFF/png?text=Cloud",
+                                "link":  "/goods?categoryId=cloud",
+                                "title":  "云空间",
+                                "order":  11,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "12",
+                                "iconUrl":  "https://placehold.co/100x100/546E7A/FFFFFF/png?text=App+Store",
+                                "link":  "/goods?categoryId=appstore",
+                                "title":  "应用市场",
+                                "order":  12,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "13",
+                                "iconUrl":  "https://placehold.co/100x100/546E7A/FFFFFF/png?text=Games",
+                                "link":  "/goods?categoryId=game",
+                                "title":  "游戏中心",
+                                "order":  13,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "14",
+                                "iconUrl":  "https://placehold.co/100x100/546E7A/FFFFFF/png?text=Video",
+                                "link":  "/goods?categoryId=video",
+                                "title":  "华为视频",
+                                "order":  14,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "15",
+                                "iconUrl":  "https://placehold.co/100x100/546E7A/FFFFFF/png?text=Music",
+                                "link":  "/goods?categoryId=music",
+                                "title":  "音乐",
+                                "order":  15,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "16",
+                                "iconUrl":  "https://placehold.co/100x100/546E7A/FFFFFF/png?text=Books",
+                                "link":  "/goods?categoryId=book",
+                                "title":  "阅读",
+                                "order":  16,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "17",
+                                "iconUrl":  "https://placehold.co/100x100/546E7A/FFFFFF/png?text=Wallet",
+                                "link":  "/goods?categoryId=wallet",
+                                "title":  "钱包",
+                                "order":  17,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "18",
+                                "iconUrl":  "https://placehold.co/100x100/546E7A/FFFFFF/png?text=Travel",
+                                "link":  "/goods?categoryId=travel",
+                                "title":  "天际通",
+                                "order":  18,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "19",
+                                "iconUrl":  "https://placehold.co/100x100/546E7A/FFFFFF/png?text=Service",
+                                "link":  "/goods?categoryId=service",
+                                "title":  "生活服务",
+                                "order":  19,
+                                "isActive":  true
+                            },
+                            {
+                                "id":  "20",
+                                "iconUrl":  "https://placehold.co/100x100/546E7A/FFFFFF/png?text=More",
+                                "link":  "/goods",
+                                "title":  "更多",
+                                "order":  20,
+                                "isActive":  true
+                            }
+                        ],
+    "premiumProducts":  [
+                            {
+                                "id":  "p1",
+                                "title":  "HUAWEI Mate 60 Pro",
+                                "subtitle":  "昆仑玻璃 卫星通话",
+                                "category":  "phone",
+                                "price":  6999,
+                                "crossedOutPrice":  7999,
+                                "imgUrl":  "http://192.168.1.117:3000/images/mate60pro.png",
+                                "description":  "华为 Mate 60 Pro 旗舰手机",
+                                "inNew":  true,
+                                "isRecommended":  true,
+                                "isPremium":  true,
+                                "order":  1,
+                                "isActive":  true,
+                                "productId":  "5"
+                            },
+                            {
+                                "id":  "p2",
+                                "title":  "HUAWEI P60 Pro",
+                                "subtitle":  "超感光影像旗舰",
+                                "category":  "phone",
+                                "price":  6488,
+                                "crossedOutPrice":  6988,
+                                "imgUrl":  "http://192.168.1.117:3000/images/p60-pro.png",
+                                "description":  "华为 P60 Pro 影像旗舰",
+                                "inNew":  false,
+                                "isRecommended":  true,
+                                "isPremium":  true,
+                                "order":  2,
+                                "isActive":  true,
+                                "productId":  "6"
+                            },
+                            {
+                                "id":  "p3",
+                                "title":  "HUAWEI Watch GT 4",
+                                "subtitle":  "科学运动 健康管理",
+                                "category":  "watch",
+                                "price":  1488,
+                                "crossedOutPrice":  1688,
+                                "imgUrl":  "http://192.168.1.117:3000/images/watch-gt4.png",
+                                "description":  "华为智能手表 GT 4",
+                                "inNew":  true,
+                                "isRecommended":  true,
+                                "isPremium":  true,
+                                "order":  3,
+                                "isActive":  true,
+                                "productId":  "1"
+                            },
+                            {
+                                "id":  "p4",
+                                "title":  "HUAWEI FreeBuds Pro 3",
+                                "subtitle":  "智慧降噪 静享好声音",
+                                "category":  "audio",
+                                "price":  1299,
+                                "crossedOutPrice":  1499,
+                                "imgUrl":  "http://192.168.1.117:3000/images/freebuds-pro3.jpg",
+                                "description":  "华为主动降噪耳机",
+                                "inNew":  false,
+                                "isRecommended":  true,
+                                "isPremium":  true,
+                                "order":  4,
+                                "isActive":  true,
+                                "productId":  "17"
+                            },
+                            {
+                                "id":  "p5",
+                                "title":  "HUAWEI MatePad Pro",
+                                "subtitle":  "创作自由 灵感无限",
+                                "category":  "tablet",
+                                "price":  5699,
+                                "crossedOutPrice":  5999,
+                                "imgUrl":  "http://192.168.1.117:3000/images/matepad-pro132.png",
+                                "description":  "华为旗舰平板",
+                                "inNew":  false,
+                                "isRecommended":  true,
+                                "isPremium":  true,
+                                "order":  5,
+                                "isActive":  true,
+                                "productId":  "13"
+                            }
+                        ],
+    "categories":  [
+                       {
+                           "id":  "c1",
+                           "imageUrl":  "https://placehold.co/100x100/FB8C00/FFFFFF/png?text=Watch",
+                           "name":  "穿戴",
+                           "parent":  "",
+                           "order":  1,
+                           "isActive":  true
+                       },
+                       {
+                           "id":  "c2",
+                           "imageUrl":  "https://placehold.co/100x100/1E88E5/FFFFFF/png?text=Phone",
+                           "name":  "手机",
+                           "parent":  "",
+                           "order":  2,
+                           "isActive":  true
+                       },
+                       {
+                           "id":  "c3",
+                           "imageUrl":  "https://placehold.co/100x100/43A047/FFFFFF/png?text=Laptop",
+                           "name":  "电脑",
+                           "parent":  "",
+                           "order":  3,
+                           "isActive":  true
+                       },
+                       {
+                           "id":  "c4",
+                           "imageUrl":  "https://placehold.co/100x100/8E24AA/FFFFFF/png?text=Tablet",
+                           "name":  "平板",
+                           "parent":  "",
+                           "order":  4,
+                           "isActive":  true
+                       }
+                   ],
+    "products":  [
+                     {
+                         "id":  "1",
+                         "title":  "HUAWEI Watch GT 4",
+                         "subtitle":  "科学运动 健康管理",
+                         "category":  "c1",
+                         "categoryId":  "c1",
+                         "price":  1488,
+                         "crossedOutPrice":  1688,
+                         "imgUrl":  "http://192.168.1.117:3000/images/watch-gt4.png",
+                         "description":  "华为智能手表 GT 4",
+                         "inNew":  true,
+                         "isRecommended":  true,
+                         "isPremium":  true,
+                         "order":  1,
+                         "isActive":  true,
+                         "colors":  [
+                                        "曜石黑",
+                                        "月光银"
+                                    ],
+                         "versions":  [
+                                          "46mm",
+                                          "41mm"
+                                      ],
+                         "productImages":  [
+                                               {
+                                                   "colors":  "曜石黑",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/watch-gt4.png",
+                                                   "isActive":  true,
+                                                   "order":  1,
+                                                   "product":  "1"
+                                               }
+                                           ]
+                     },
+                     {
+                         "id":  "2",
+                         "title":  "HUAWEI Watch Fit 3",
+                         "subtitle":  "轻薄时尚 全天候健康监测",
+                         "category":  "c1",
+                         "categoryId":  "c1",
+                         "price":  899,
+                         "crossedOutPrice":  999,
+                         "imgUrl":  "http://192.168.1.117:3000/images/watch-fit3.png",
+                         "description":  "华为 Watch Fit 3 手表",
+                         "inNew":  false,
+                         "isRecommended":  false,
+                         "isPremium":  false,
+                         "order":  2,
+                         "isActive":  true,
+                         "colors":  [
+                                        "樱语粉",
+                                        "海岛蓝",
+                                        "曜石黑"
+                                    ],
+                         "versions":  [
+                                          "标准版",
+                                          "活力版"
+                                      ],
+                         "productImages":  [
+                                               {
+                                                   "colors":  "樱语粉",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/watch-fit3.png",
+                                                   "isActive":  true,
+                                                   "order":  1,
+                                                   "product":  "2"
+                                               }
+                                           ]
+                     },
+                     {
+                         "id":  "3",
+                         "title":  "HUAWEI Watch Ultimate",
+                         "subtitle":  "非凡大师 巅峰之作",
+                         "category":  "c1",
+                         "categoryId":  "c1",
+                         "price":  5999,
+                         "crossedOutPrice":  6499,
+                         "imgUrl":  "http://192.168.1.117:3000/images/watch-ultimate.jpg",
+                         "description":  "华为 Watch Ultimate 手表",
+                         "inNew":  false,
+                         "isRecommended":  true,
+                         "isPremium":  true,
+                         "order":  3,
+                         "isActive":  true,
+                         "colors":  [
+                                        "钛金属原色"
+                                    ],
+                         "versions":  [
+                                          "标准版",
+                                          "尊享版"
+                                      ],
+                         "productImages":  [
+                                               {
+                                                   "colors":  "钛金属原色",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/watch-ultimate.jpg",
+                                                   "isActive":  true,
+                                                   "order":  1,
+                                                   "product":  "3"
+                                               }
+                                           ]
+                     },
+                     {
+                         "id":  "4",
+                         "title":  "HUAWEI Band 8",
+                         "subtitle":  "轻盈纤薄 活力焕发",
+                         "category":  "c1",
+                         "categoryId":  "c1",
+                         "price":  269,
+                         "crossedOutPrice":  299,
+                         "imgUrl":  "http://192.168.1.117:3000/images/band8.jpg",
+                         "description":  "华为手环 8",
+                         "inNew":  true,
+                         "isRecommended":  false,
+                         "isPremium":  false,
+                         "order":  4,
+                         "isActive":  true,
+                         "colors":  [
+                                        "星夜黑",
+                                        "晨雾紫"
+                                    ],
+                         "versions":  [
+                                          "标准版",
+                                          "NFC版"
+                                      ],
+                         "productImages":  [
+                                               {
+                                                   "colors":  "星夜黑",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/band8.jpg",
+                                                   "isActive":  true,
+                                                   "order":  1,
+                                                   "product":  "4"
+                                               }
+                                           ]
+                     },
+                     {
+                         "id":  "5",
+                         "title":  "HUAWEI Mate 60 Pro",
+                         "subtitle":  "昆仑玻璃 卫星通话",
+                         "category":  "c2",
+                         "categoryId":  "c2",
+                         "price":  6999,
+                         "crossedOutPrice":  7999,
+                         "imgUrl":  "http://192.168.1.117:3000/images/mate60pro.png",
+                         "description":  "华为 Mate 60 Pro 旗舰手机",
+                         "inNew":  true,
+                         "isRecommended":  true,
+                         "isPremium":  true,
+                         "order":  1,
+                         "isActive":  true,
+                         "colors":  [
+                                        "雅丹黑",
+                                        "白沙银",
+                                        "青山黛"
+                                    ],
+                         "versions":  [
+                                          "12GB+256GB",
+                                          "12GB+512GB",
+                                          "12GB+1TB"
+                                      ],
+                         "productImages":  [
+                                               {
+                                                   "colors":  "雅丹黑",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/detail/mate60pro/suning-1.jpg",
+                                                   "isActive":  true,
+                                                   "order":  1,
+                                                   "product":  "5"
+                                               },
+                                               {
+                                                   "colors":  "白沙银",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/detail/mate60pro/suning-2.jpg",
+                                                   "isActive":  true,
+                                                   "order":  2,
+                                                   "product":  "5"
+                                               },
+                                               {
+                                                   "colors":  "青山黛",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/detail/mate60pro/suning-3.jpg",
+                                                   "isActive":  true,
+                                                   "order":  3,
+                                                   "product":  "5"
+                                               },
+                                               {
+                                                   "colors":  "雅丹黑",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/mate60pro.png",
+                                                   "isActive":  true,
+                                                   "order":  4,
+                                                   "product":  "5"
+                                               }
+                                           ]
+                     },
+                     {
+                         "id":  "6",
+                         "title":  "HUAWEI P60 Pro",
+                         "subtitle":  "超感光影像旗舰",
+                         "category":  "c2",
+                         "categoryId":  "c2",
+                         "price":  6488,
+                         "crossedOutPrice":  6988,
+                         "imgUrl":  "http://192.168.1.117:3000/images/p60-pro.png",
+                         "description":  "华为 P60 Pro 影像旗舰",
+                         "inNew":  false,
+                         "isRecommended":  true,
+                         "isPremium":  true,
+                         "order":  2,
+                         "isActive":  true,
+                         "colors":  [
+                                        "羽砂黑",
+                                        "洛可可白",
+                                        "翡冷翠"
+                                    ],
+                         "versions":  [
+                                          "8GB+256GB",
+                                          "12GB+256GB",
+                                          "12GB+512GB"
+                                      ],
+                         "productImages":  [
+                                               {
+                                                   "colors":  "羽砂黑",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/p60-pro.png",
+                                                   "isActive":  true,
+                                                   "order":  1,
+                                                   "product":  "6"
+                                               }
+                                           ]
+                     },
+                     {
+                         "id":  "7",
+                         "title":  "HUAWEI nova 12",
+                         "subtitle":  "时尚轻薄 影像出众",
+                         "category":  "c2",
+                         "categoryId":  "c2",
+                         "price":  2999,
+                         "crossedOutPrice":  3499,
+                         "imgUrl":  "http://192.168.1.117:3000/images/nova12.png",
+                         "description":  "华为 nova 12 手机",
+                         "inNew":  false,
+                         "isRecommended":  false,
+                         "isPremium":  false,
+                         "order":  3,
+                         "isActive":  true,
+                         "colors":  [
+                                        "樱语粉",
+                                        "曜金黑",
+                                        "冰晶蓝"
+                                    ],
+                         "versions":  [
+                                          "8GB+256GB",
+                                          "12GB+256GB",
+                                          "12GB+512GB"
+                                      ],
+                         "productImages":  [
+                                               {
+                                                   "colors":  "樱语粉",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/nova12.png",
+                                                   "isActive":  true,
+                                                   "order":  1,
+                                                   "product":  "7"
+                                               }
+                                           ]
+                     },
+                     {
+                         "id":  "8",
+                         "title":  "HUAWEI Mate X5",
+                         "subtitle":  "折叠屏旗舰 全能体验",
+                         "category":  "c2",
+                         "categoryId":  "c2",
+                         "price":  12999,
+                         "crossedOutPrice":  13999,
+                         "imgUrl":  "http://192.168.1.117:3000/images/mate-x5.jpg",
+                         "description":  "华为 Mate X5 折叠屏手机",
+                         "inNew":  true,
+                         "isRecommended":  true,
+                         "isPremium":  true,
+                         "order":  4,
+                         "isActive":  true,
+                         "colors":  [
+                                        "羽砂黑",
+                                        "幻影紫",
+                                        "青山黛"
+                                    ],
+                         "versions":  [
+                                          "12GB+512GB",
+                                          "16GB+1TB"
+                                      ],
+                         "productImages":  [
+                                               {
+                                                   "colors":  "羽砂黑",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/mate-x5.jpg",
+                                                   "isActive":  true,
+                                                   "order":  1,
+                                                   "product":  "8"
+                                               }
+                                           ]
+                     },
+                     {
+                         "id":  "9",
+                         "title":  "HUAWEI MateBook 14",
+                         "subtitle":  "全面屏轻薄本",
+                         "category":  "c3",
+                         "categoryId":  "c3",
+                         "price":  5299,
+                         "crossedOutPrice":  5699,
+                         "imgUrl":  "http://192.168.1.117:3000/images/matebook14.jpg",
+                         "description":  "华为 MateBook 14 笔记本",
+                         "inNew":  true,
+                         "isRecommended":  true,
+                         "isPremium":  false,
+                         "order":  1,
+                         "isActive":  true,
+                         "colors":  [
+                                        "深空灰",
+                                        "皓月银"
+                                    ],
+                         "versions":  [
+                                          "16GB+512GB",
+                                          "16GB+1TB",
+                                          "32GB+1TB"
+                                      ],
+                         "productImages":  [
+                                               {
+                                                   "colors":  "深空灰",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/matebook14.jpg",
+                                                   "isActive":  true,
+                                                   "order":  1,
+                                                   "product":  "9"
+                                               }
+                                           ]
+                     },
+                     {
+                         "id":  "10",
+                         "title":  "HUAWEI MateBook X Pro",
+                         "subtitle":  "智慧旗舰 性能强劲",
+                         "category":  "c3",
+                         "categoryId":  "c3",
+                         "price":  8999,
+                         "crossedOutPrice":  9499,
+                         "imgUrl":  "http://192.168.1.117:3000/images/matebook-x-pro.png",
+                         "description":  "华为 MateBook X Pro 笔记本",
+                         "inNew":  false,
+                         "isRecommended":  true,
+                         "isPremium":  true,
+                         "order":  2,
+                         "isActive":  true,
+                         "colors":  [
+                                        "拂晓粉",
+                                        "深空灰",
+                                        "皓月银"
+                                    ],
+                         "versions":  [
+                                          "16GB+512GB",
+                                          "16GB+1TB",
+                                          "32GB+2TB"
+                                      ],
+                         "productImages":  [
+                                               {
+                                                   "colors":  "拂晓粉",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/matebook-x-pro.png",
+                                                   "isActive":  true,
+                                                   "order":  1,
+                                                   "product":  "10"
+                                               }
+                                           ]
+                     },
+                     {
+                         "id":  "11",
+                         "title":  "HUAWEI MateBook D 16",
+                         "subtitle":  "大屏高性能轻薄本",
+                         "category":  "c3",
+                         "categoryId":  "c3",
+                         "price":  4599,
+                         "crossedOutPrice":  4999,
+                         "imgUrl":  "http://192.168.1.117:3000/images/matebook-d16.png",
+                         "description":  "华为 MateBook D 16 笔记本",
+                         "inNew":  false,
+                         "isRecommended":  false,
+                         "isPremium":  false,
+                         "order":  3,
+                         "isActive":  true,
+                         "colors":  [
+                                        "深空灰",
+                                        "皓月银"
+                                    ],
+                         "versions":  [
+                                          "16GB+512GB",
+                                          "16GB+1TB"
+                                      ],
+                         "productImages":  [
+                                               {
+                                                   "colors":  "深空灰",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/matebook-d16.png",
+                                                   "isActive":  true,
+                                                   "order":  1,
+                                                   "product":  "11"
+                                               }
+                                           ]
+                     },
+                     {
+                         "id":  "12",
+                         "title":  "HUAWEI MateBook E Go",
+                         "subtitle":  "二合一 移动办公优选",
+                         "category":  "c3",
+                         "categoryId":  "c3",
+                         "price":  5499,
+                         "crossedOutPrice":  5999,
+                         "imgUrl":  "http://192.168.1.117:3000/images/matebook-ego.jpg",
+                         "description":  "华为 MateBook E Go 二合一笔记本",
+                         "inNew":  true,
+                         "isRecommended":  true,
+                         "isPremium":  false,
+                         "order":  4,
+                         "isActive":  true,
+                         "colors":  [
+                                        "星云灰",
+                                        "海岛蓝"
+                                    ],
+                         "versions":  [
+                                          "16GB+512GB",
+                                          "16GB+1TB"
+                                      ],
+                         "productImages":  [
+                                               {
+                                                   "colors":  "星云灰",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/matebook-ego.jpg",
+                                                   "isActive":  true,
+                                                   "order":  1,
+                                                   "product":  "12"
+                                               }
+                                           ]
+                     },
+                     {
+                         "id":  "13",
+                         "title":  "HUAWEI MatePad Pro 13.2",
+                         "subtitle":  "创作自由 灵感无限",
+                         "category":  "c4",
+                         "categoryId":  "c4",
+                         "price":  5699,
+                         "crossedOutPrice":  5999,
+                         "imgUrl":  "http://192.168.1.117:3000/images/matepad-pro132.png",
+                         "description":  "华为旗舰平板",
+                         "inNew":  true,
+                         "isRecommended":  true,
+                         "isPremium":  true,
+                         "order":  1,
+                         "isActive":  true,
+                         "colors":  [
+                                        "曜石黑",
+                                        "流金蓝",
+                                        "青纱白"
+                                    ],
+                         "versions":  [
+                                          "12GB+256GB",
+                                          "12GB+512GB",
+                                          "16GB+1TB"
+                                      ],
+                         "productImages":  [
+                                               {
+                                                   "colors":  "曜石黑",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/matepad-pro132.png",
+                                                   "isActive":  true,
+                                                   "order":  1,
+                                                   "product":  "13"
+                                               }
+                                           ]
+                     },
+                     {
+                         "id":  "14",
+                         "title":  "HUAWEI MatePad SE",
+                         "subtitle":  "护眼全面屏 学习好帮手",
+                         "category":  "c4",
+                         "categoryId":  "c4",
+                         "price":  1299,
+                         "crossedOutPrice":  1499,
+                         "imgUrl":  "http://192.168.1.117:3000/images/matepad-se.png",
+                         "description":  "华为 MatePad SE 平板",
+                         "inNew":  false,
+                         "isRecommended":  false,
+                         "isPremium":  false,
+                         "order":  2,
+                         "isActive":  true,
+                         "colors":  [
+                                        "曜石黑",
+                                        "海岛蓝"
+                                    ],
+                         "versions":  [
+                                          "4GB+128GB",
+                                          "8GB+128GB"
+                                      ],
+                         "productImages":  [
+                                               {
+                                                   "colors":  "曜石黑",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/matepad-se.png",
+                                                   "isActive":  true,
+                                                   "order":  1,
+                                                   "product":  "14"
+                                               }
+                                           ]
+                     },
+                     {
+                         "id":  "15",
+                         "title":  "HUAWEI MatePad Air",
+                         "subtitle":  "轻盈机身 高效生产力",
+                         "category":  "c4",
+                         "categoryId":  "c4",
+                         "price":  2999,
+                         "crossedOutPrice":  3299,
+                         "imgUrl":  "http://192.168.1.117:3000/images/matepad-air.png",
+                         "description":  "华为 MatePad Air 平板",
+                         "inNew":  false,
+                         "isRecommended":  true,
+                         "isPremium":  false,
+                         "order":  3,
+                         "isActive":  true,
+                         "colors":  [
+                                        "云雾白",
+                                        "海岛蓝",
+                                        "烟紫"
+                                    ],
+                         "versions":  [
+                                          "8GB+128GB",
+                                          "8GB+256GB"
+                                      ],
+                         "productImages":  [
+                                               {
+                                                   "colors":  "云雾白",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/matepad-air.png",
+                                                   "isActive":  true,
+                                                   "order":  1,
+                                                   "product":  "15"
+                                               }
+                                           ]
+                     },
+                     {
+                         "id":  "16",
+                         "title":  "HUAWEI MatePad 11.5",
+                         "subtitle":  "护眼柔光屏 学习娱乐两相宜",
+                         "category":  "c4",
+                         "categoryId":  "c4",
+                         "price":  1899,
+                         "crossedOutPrice":  2199,
+                         "imgUrl":  "http://192.168.1.117:3000/images/matepad115.jpg",
+                         "description":  "华为 MatePad 11.5 平板",
+                         "inNew":  true,
+                         "isRecommended":  false,
+                         "isPremium":  false,
+                         "order":  4,
+                         "isActive":  true,
+                         "colors":  [
+                                        "曜石黑",
+                                        "海岛蓝"
+                                    ],
+                         "versions":  [
+                                          "6GB+128GB",
+                                          "8GB+128GB"
+                                      ],
+                         "productImages":  [
+                                               {
+                                                   "colors":  "曜石黑",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/matepad115.jpg",
+                                                   "isActive":  true,
+                                                   "order":  1,
+                                                   "product":  "16"
+                                               }
+                                           ]
+                     },
+                     {
+                         "id":  "17",
+                         "title":  "HUAWEI FreeBuds Pro 3",
+                         "subtitle":  "智慧降噪 静享好声音",
+                         "category":  "c1",
+                         "categoryId":  "c1",
+                         "price":  1299,
+                         "crossedOutPrice":  1499,
+                         "imgUrl":  "http://192.168.1.117:3000/images/freebuds-pro3.jpg",
+                         "description":  "华为主动降噪耳机",
+                         "inNew":  false,
+                         "isRecommended":  true,
+                         "isPremium":  true,
+                         "order":  17,
+                         "isActive":  true,
+                         "colors":  [
+                                        "曜石黑",
+                                        "冰霜银"
+                                    ],
+                         "versions":  [
+                                          "标准版",
+                                          "无线充版"
+                                      ],
+                         "productImages":  [
+                                               {
+                                                   "colors":  "曜石黑",
+                                                   "imgUrl":  "http://192.168.1.117:3000/images/freebuds-pro3.jpg",
+                                                   "isActive":  true,
+                                                   "order":  1,
+                                                   "product":  "17"
+                                               }
+                                           ]
+                     }
+                 ],
+    "cart":  [
+                 {
+                     "id":  "1",
+                     "goodsId":  "1",
+                     "name":  "HUAWEI Mate 60",
+                     "price":  6999,
+                     "imageUrl":  "https://placehold.co/400x400/1E88E5/FFFFFF/png?text=Mate+60",
+                     "count":  1,
+                     "checked":  true
+                 },
+                 {
+                     "id":  "2",
+                     "goodsId":  "4",
+                     "name":  "HUAWEI FreeBuds Pro 3",
+                     "price":  1299,
+                     "imageUrl":  "https://placehold.co/400x400/00897B/FFFFFF/png?text=FreeBuds+Pro+3",
+                     "count":  2,
+                     "checked":  false
+                 }
+             ]
+}
