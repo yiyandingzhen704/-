@@ -10,3 +10,8 @@
 /.clang-tidy
 **/.test
 /.appanalyzer
+/.claude
+/mock/*.bak
+/mock/*.bak*
+.preview
+**/.preview
