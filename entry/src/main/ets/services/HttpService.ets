@@ -1,7 +1,7 @@
 import http from '@ohos.net.http';
 import { HttpResponse } from "../types/HttpResponse";
 
-const BASE_URL='http://192.168.1.117:3000'
+const BASE_URL='http://100.71.5.138:3000'
 const HTTP_CONNECT_TIMEOUT = 10000
 const HTTP_READ_TIMEOUT = 10000
 const SERVER_NET_ERROR = '请求数据失败'

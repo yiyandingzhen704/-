@@ -34,7 +34,7 @@
                       "name":  "HUAWEI Mate 60",
                       "price":  6999,
                       "originalPrice":  7499,
-                      "imageUrl":  "http://192.168.1.117:3000/images/mate60.png",
+                      "imageUrl":  "http://100.71.5.138:3000/images/mate60.png",
                       "desc":  "华为 Mate 60 旗舰手机",
                       "sales":  10234,
                       "categoryId":  "phone"
@@ -44,7 +44,7 @@
                       "name":  "HUAWEI P60 Pro",
                       "price":  6488,
                       "originalPrice":  6988,
-                      "imageUrl":  "http://192.168.1.117:3000/images/p60-pro.png",
+                      "imageUrl":  "http://100.71.5.138:3000/images/p60-pro.png",
                       "desc":  "华为 P60 Pro 影像旗舰",
                       "sales":  8561,
                       "categoryId":  "phone"
@@ -54,7 +54,7 @@
                       "name":  "HUAWEI Watch GT 4",
                       "price":  1488,
                       "originalPrice":  1688,
-                      "imageUrl":  "http://192.168.1.117:3000/images/watch-gt4.png",
+                      "imageUrl":  "http://100.71.5.138:3000/images/watch-gt4.png",
                       "desc":  "华为智能手表 GT 4",
                       "sales":  5210,
                       "categoryId":  "watch"
@@ -64,7 +64,7 @@
                       "name":  "HUAWEI FreeBuds Pro 3",
                       "price":  1299,
                       "originalPrice":  1499,
-                      "imageUrl":  "http://192.168.1.117:3000/images/freebuds-pro3.jpg",
+                      "imageUrl":  "http://100.71.5.138:3000/images/freebuds-pro3.jpg",
                       "desc":  "华为主动降噪耳机",
                       "sales":  7634,
                       "categoryId":  "audio"
@@ -74,7 +74,7 @@
                       "name":  "HUAWEI MatePad Pro 13.2",
                       "price":  5699,
                       "originalPrice":  5999,
-                      "imageUrl":  "http://192.168.1.117:3000/images/matepad-pro132.png",
+                      "imageUrl":  "http://100.71.5.138:3000/images/matepad-pro132.png",
                       "desc":  "华为平板电脑",
                       "sales":  3420,
                       "categoryId":  "tablet"
@@ -250,7 +250,7 @@
                                 "category":  "phone",
                                 "price":  6999,
                                 "crossedOutPrice":  7999,
-                                "imgUrl":  "http://192.168.1.117:3000/images/mate60pro.png",
+                                "imgUrl":  "http://100.71.5.138:3000/images/mate60pro.png",
                                 "description":  "华为 Mate 60 Pro 旗舰手机",
                                 "inNew":  true,
                                 "isRecommended":  true,
@@ -266,7 +266,7 @@
                                 "category":  "phone",
                                 "price":  6488,
                                 "crossedOutPrice":  6988,
-                                "imgUrl":  "http://192.168.1.117:3000/images/p60-pro.png",
+                                "imgUrl":  "http://100.71.5.138:3000/images/p60-pro.png",
                                 "description":  "华为 P60 Pro 影像旗舰",
                                 "inNew":  false,
                                 "isRecommended":  true,
@@ -282,7 +282,7 @@
                                 "category":  "watch",
                                 "price":  1488,
                                 "crossedOutPrice":  1688,
-                                "imgUrl":  "http://192.168.1.117:3000/images/watch-gt4.png",
+                                "imgUrl":  "http://100.71.5.138:3000/images/watch-gt4.png",
                                 "description":  "华为智能手表 GT 4",
                                 "inNew":  true,
                                 "isRecommended":  true,
@@ -298,7 +298,7 @@
                                 "category":  "audio",
                                 "price":  1299,
                                 "crossedOutPrice":  1499,
-                                "imgUrl":  "http://192.168.1.117:3000/images/freebuds-pro3.jpg",
+                                "imgUrl":  "http://100.71.5.138:3000/images/freebuds-pro3.jpg",
                                 "description":  "华为主动降噪耳机",
                                 "inNew":  false,
                                 "isRecommended":  true,
@@ -314,7 +314,7 @@
                                 "category":  "tablet",
                                 "price":  5699,
                                 "crossedOutPrice":  5999,
-                                "imgUrl":  "http://192.168.1.117:3000/images/matepad-pro132.png",
+                                "imgUrl":  "http://100.71.5.138:3000/images/matepad-pro132.png",
                                 "description":  "华为旗舰平板",
                                 "inNew":  false,
                                 "isRecommended":  true,
@@ -367,7 +367,7 @@
                          "categoryId":  "c1",
                          "price":  1488,
                          "crossedOutPrice":  1688,
-                         "imgUrl":  "http://192.168.1.117:3000/images/watch-gt4.png",
+                         "imgUrl":  "http://100.71.5.138:3000/images/watch-gt4.png",
                          "description":  "华为智能手表 GT 4",
                          "inNew":  true,
                          "isRecommended":  true,
@@ -385,7 +385,7 @@
                          "productImages":  [
                                                {
                                                    "colors":  "曜石黑",
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/watch-gt4.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/watch-gt4.png",
                                                    "isActive":  true,
                                                    "order":  1,
                                                    "product":  "1",
@@ -394,7 +394,7 @@
                                                {
                                                    "id":  "1-2",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/watch-gt4.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/watch-gt4.png",
                                                    "product":  "1",
                                                    "order":  2,
                                                    "colors":  "月光银"
@@ -410,7 +410,7 @@
                          "categoryId":  "c1",
                          "price":  899,
                          "crossedOutPrice":  999,
-                         "imgUrl":  "http://192.168.1.117:3000/images/watch-fit3.png",
+                         "imgUrl":  "http://100.71.5.138:3000/images/watch-fit3.png",
                          "description":  "华为 Watch Fit 3 手表",
                          "inNew":  false,
                          "isRecommended":  false,
@@ -429,7 +429,7 @@
                          "productImages":  [
                                                {
                                                    "colors":  "樱语粉",
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/watch-fit3.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/watch-fit3.png",
                                                    "isActive":  true,
                                                    "order":  1,
                                                    "product":  "2",
@@ -438,7 +438,7 @@
                                                {
                                                    "id":  "2-2",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/watch-fit3.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/watch-fit3.png",
                                                    "product":  "2",
                                                    "order":  2,
                                                    "colors":  "海岛蓝"
@@ -446,7 +446,7 @@
                                                {
                                                    "id":  "2-3",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/watch-fit3.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/watch-fit3.png",
                                                    "product":  "2",
                                                    "order":  3,
                                                    "colors":  "曜石黑"
@@ -462,7 +462,7 @@
                          "categoryId":  "c1",
                          "price":  5999,
                          "crossedOutPrice":  6499,
-                         "imgUrl":  "http://192.168.1.117:3000/images/watch-ultimate.jpg",
+                         "imgUrl":  "http://100.71.5.138:3000/images/watch-ultimate.jpg",
                          "description":  "华为 Watch Ultimate 手表",
                          "inNew":  false,
                          "isRecommended":  true,
@@ -479,7 +479,7 @@
                          "productImages":  [
                                                {
                                                    "colors":  "钛金属原色",
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/watch-ultimate.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/watch-ultimate.jpg",
                                                    "isActive":  true,
                                                    "order":  1,
                                                    "product":  "3",
@@ -496,7 +496,7 @@
                          "categoryId":  "c1",
                          "price":  269,
                          "crossedOutPrice":  299,
-                         "imgUrl":  "http://192.168.1.117:3000/images/band8.jpg",
+                         "imgUrl":  "http://100.71.5.138:3000/images/band8.jpg",
                          "description":  "华为手环 8",
                          "inNew":  true,
                          "isRecommended":  false,
@@ -514,7 +514,7 @@
                          "productImages":  [
                                                {
                                                    "colors":  "星夜黑",
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/band8.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/band8.jpg",
                                                    "isActive":  true,
                                                    "order":  1,
                                                    "product":  "4",
@@ -523,7 +523,7 @@
                                                {
                                                    "id":  "4-2",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/band8.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/band8.jpg",
                                                    "product":  "4",
                                                    "order":  2,
                                                    "colors":  "晨雾紫"
@@ -539,7 +539,7 @@
                          "categoryId":  "c2",
                          "price":  6999,
                          "crossedOutPrice":  7999,
-                         "imgUrl":  "http://192.168.1.117:3000/images/mate60pro.png",
+                         "imgUrl":  "http://100.71.5.138:3000/images/mate60pro.png",
                          "description":  "华为 Mate 60 Pro 旗舰手机",
                          "inNew":  true,
                          "isRecommended":  true,
@@ -560,7 +560,7 @@
                                                {
                                                    "id":  "5-1",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/detail/mate60pro/suning-1.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/detail/mate60pro/suning-1.jpg",
                                                    "product":  "5",
                                                    "order":  1,
                                                    "colors":  "雅丹黑"
@@ -568,7 +568,7 @@
                                                {
                                                    "id":  "5-2",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/detail/mate60pro/suning-2.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/detail/mate60pro/suning-2.jpg",
                                                    "product":  "5",
                                                    "order":  2,
                                                    "colors":  "雅丹黑"
@@ -576,7 +576,7 @@
                                                {
                                                    "id":  "5-3",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/detail/mate60pro/suning-3.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/detail/mate60pro/suning-3.jpg",
                                                    "product":  "5",
                                                    "order":  3,
                                                    "colors":  "雅丹黑"
@@ -584,7 +584,7 @@
                                                {
                                                    "id":  "5-4",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/detail/mate60pro/colors/candidate-1.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/detail/mate60pro/colors/candidate-1.png",
                                                    "product":  "5",
                                                    "order":  4,
                                                    "colors":  "白沙银"
@@ -592,7 +592,7 @@
                                                {
                                                    "id":  "5-5",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/detail/mate60pro/colors/candidate-2.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/detail/mate60pro/colors/candidate-2.jpg",
                                                    "product":  "5",
                                                    "order":  5,
                                                    "colors":  "青山黛"
@@ -600,7 +600,7 @@
                                                {
                                                    "id":  "5-6",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/detail/mate60pro/colors/candidate-4.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/detail/mate60pro/colors/candidate-4.jpg",
                                                    "product":  "5",
                                                    "order":  6,
                                                    "colors":  "雅丹黑"
@@ -616,7 +616,7 @@
                          "categoryId":  "c2",
                          "price":  6488,
                          "crossedOutPrice":  6988,
-                         "imgUrl":  "http://192.168.1.117:3000/images/p60-pro.png",
+                         "imgUrl":  "http://100.71.5.138:3000/images/p60-pro.png",
                          "description":  "华为 P60 Pro 影像旗舰",
                          "inNew":  false,
                          "isRecommended":  true,
@@ -636,7 +636,7 @@
                          "productImages":  [
                                                {
                                                    "colors":  "羽砂黑",
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/p60-pro.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/p60-pro.png",
                                                    "isActive":  true,
                                                    "order":  1,
                                                    "product":  "6",
@@ -645,7 +645,7 @@
                                                {
                                                    "id":  "6-2",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/p60-pro.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/p60-pro.png",
                                                    "product":  "6",
                                                    "order":  2,
                                                    "colors":  "洛可可白"
@@ -653,7 +653,7 @@
                                                {
                                                    "id":  "6-3",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/p60-pro.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/p60-pro.png",
                                                    "product":  "6",
                                                    "order":  3,
                                                    "colors":  "翡冷翠"
@@ -669,7 +669,7 @@
                          "categoryId":  "c2",
                          "price":  2999,
                          "crossedOutPrice":  3499,
-                         "imgUrl":  "http://192.168.1.117:3000/images/nova12.png",
+                         "imgUrl":  "http://100.71.5.138:3000/images/nova12.png",
                          "description":  "华为 nova 12 手机",
                          "inNew":  false,
                          "isRecommended":  false,
@@ -689,7 +689,7 @@
                          "productImages":  [
                                                {
                                                    "colors":  "樱语粉",
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/nova12.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/nova12.png",
                                                    "isActive":  true,
                                                    "order":  1,
                                                    "product":  "7",
@@ -698,7 +698,7 @@
                                                {
                                                    "id":  "7-2",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/nova12.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/nova12.png",
                                                    "product":  "7",
                                                    "order":  2,
                                                    "colors":  "曜金黑"
@@ -706,7 +706,7 @@
                                                {
                                                    "id":  "7-3",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/nova12.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/nova12.png",
                                                    "product":  "7",
                                                    "order":  3,
                                                    "colors":  "冰晶蓝"
@@ -722,7 +722,7 @@
                          "categoryId":  "c2",
                          "price":  12999,
                          "crossedOutPrice":  13999,
-                         "imgUrl":  "http://192.168.1.117:3000/images/mate-x5.jpg",
+                         "imgUrl":  "http://100.71.5.138:3000/images/mate-x5.jpg",
                          "description":  "华为 Mate X5 折叠屏手机",
                          "inNew":  true,
                          "isRecommended":  true,
@@ -741,7 +741,7 @@
                          "productImages":  [
                                                {
                                                    "colors":  "羽砂黑",
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/mate-x5.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/mate-x5.jpg",
                                                    "isActive":  true,
                                                    "order":  1,
                                                    "product":  "8",
@@ -750,7 +750,7 @@
                                                {
                                                    "id":  "8-2",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/mate-x5.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/mate-x5.jpg",
                                                    "product":  "8",
                                                    "order":  2,
                                                    "colors":  "幻影紫"
@@ -758,7 +758,7 @@
                                                {
                                                    "id":  "8-3",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/mate-x5.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/mate-x5.jpg",
                                                    "product":  "8",
                                                    "order":  3,
                                                    "colors":  "青山黛"
@@ -774,7 +774,7 @@
                          "categoryId":  "c3",
                          "price":  5299,
                          "crossedOutPrice":  5699,
-                         "imgUrl":  "http://192.168.1.117:3000/images/matebook14.jpg",
+                         "imgUrl":  "http://100.71.5.138:3000/images/matebook14.jpg",
                          "description":  "华为 MateBook 14 笔记本",
                          "inNew":  true,
                          "isRecommended":  true,
@@ -793,7 +793,7 @@
                          "productImages":  [
                                                {
                                                    "colors":  "深空灰",
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matebook14.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matebook14.jpg",
                                                    "isActive":  true,
                                                    "order":  1,
                                                    "product":  "9",
@@ -802,7 +802,7 @@
                                                {
                                                    "id":  "9-2",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matebook14.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matebook14.jpg",
                                                    "product":  "9",
                                                    "order":  2,
                                                    "colors":  "皓月银"
@@ -818,7 +818,7 @@
                          "categoryId":  "c3",
                          "price":  8999,
                          "crossedOutPrice":  9499,
-                         "imgUrl":  "http://192.168.1.117:3000/images/matebook-x-pro.png",
+                         "imgUrl":  "http://100.71.5.138:3000/images/matebook-x-pro.png",
                          "description":  "华为 MateBook X Pro 笔记本",
                          "inNew":  false,
                          "isRecommended":  true,
@@ -838,7 +838,7 @@
                          "productImages":  [
                                                {
                                                    "colors":  "拂晓粉",
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matebook-x-pro.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matebook-x-pro.png",
                                                    "isActive":  true,
                                                    "order":  1,
                                                    "product":  "10",
@@ -847,7 +847,7 @@
                                                {
                                                    "id":  "10-2",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matebook-x-pro.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matebook-x-pro.png",
                                                    "product":  "10",
                                                    "order":  2,
                                                    "colors":  "深空灰"
@@ -855,7 +855,7 @@
                                                {
                                                    "id":  "10-3",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matebook-x-pro.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matebook-x-pro.png",
                                                    "product":  "10",
                                                    "order":  3,
                                                    "colors":  "皓月银"
@@ -871,7 +871,7 @@
                          "categoryId":  "c3",
                          "price":  4599,
                          "crossedOutPrice":  4999,
-                         "imgUrl":  "http://192.168.1.117:3000/images/matebook-d16.png",
+                         "imgUrl":  "http://100.71.5.138:3000/images/matebook-d16.png",
                          "description":  "华为 MateBook D 16 笔记本",
                          "inNew":  false,
                          "isRecommended":  false,
@@ -889,7 +889,7 @@
                          "productImages":  [
                                                {
                                                    "colors":  "深空灰",
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matebook-d16.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matebook-d16.png",
                                                    "isActive":  true,
                                                    "order":  1,
                                                    "product":  "11",
@@ -898,7 +898,7 @@
                                                {
                                                    "id":  "11-2",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matebook-d16.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matebook-d16.png",
                                                    "product":  "11",
                                                    "order":  2,
                                                    "colors":  "皓月银"
@@ -914,7 +914,7 @@
                          "categoryId":  "c3",
                          "price":  5499,
                          "crossedOutPrice":  5999,
-                         "imgUrl":  "http://192.168.1.117:3000/images/matebook-ego.jpg",
+                         "imgUrl":  "http://100.71.5.138:3000/images/matebook-ego.jpg",
                          "description":  "华为 MateBook E Go 二合一笔记本",
                          "inNew":  true,
                          "isRecommended":  true,
@@ -932,7 +932,7 @@
                          "productImages":  [
                                                {
                                                    "colors":  "星云灰",
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matebook-ego.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matebook-ego.jpg",
                                                    "isActive":  true,
                                                    "order":  1,
                                                    "product":  "12",
@@ -941,7 +941,7 @@
                                                {
                                                    "id":  "12-2",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matebook-ego.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matebook-ego.jpg",
                                                    "product":  "12",
                                                    "order":  2,
                                                    "colors":  "海岛蓝"
@@ -957,7 +957,7 @@
                          "categoryId":  "c4",
                          "price":  5699,
                          "crossedOutPrice":  5999,
-                         "imgUrl":  "http://192.168.1.117:3000/images/matepad-pro132.png",
+                         "imgUrl":  "http://100.71.5.138:3000/images/matepad-pro132.png",
                          "description":  "华为旗舰平板",
                          "inNew":  true,
                          "isRecommended":  true,
@@ -977,7 +977,7 @@
                          "productImages":  [
                                                {
                                                    "colors":  "曜石黑",
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matepad-pro132.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matepad-pro132.png",
                                                    "isActive":  true,
                                                    "order":  1,
                                                    "product":  "13",
@@ -986,7 +986,7 @@
                                                {
                                                    "id":  "13-2",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matepad-pro132.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matepad-pro132.png",
                                                    "product":  "13",
                                                    "order":  2,
                                                    "colors":  "流金蓝"
@@ -994,7 +994,7 @@
                                                {
                                                    "id":  "13-3",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matepad-pro132.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matepad-pro132.png",
                                                    "product":  "13",
                                                    "order":  3,
                                                    "colors":  "青纱白"
@@ -1010,7 +1010,7 @@
                          "categoryId":  "c4",
                          "price":  1299,
                          "crossedOutPrice":  1499,
-                         "imgUrl":  "http://192.168.1.117:3000/images/matepad-se.png",
+                         "imgUrl":  "http://100.71.5.138:3000/images/matepad-se.png",
                          "description":  "华为 MatePad SE 平板",
                          "inNew":  false,
                          "isRecommended":  false,
@@ -1028,7 +1028,7 @@
                          "productImages":  [
                                                {
                                                    "colors":  "曜石黑",
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matepad-se.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matepad-se.png",
                                                    "isActive":  true,
                                                    "order":  1,
                                                    "product":  "14",
@@ -1037,7 +1037,7 @@
                                                {
                                                    "id":  "14-2",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matepad-se.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matepad-se.png",
                                                    "product":  "14",
                                                    "order":  2,
                                                    "colors":  "海岛蓝"
@@ -1053,7 +1053,7 @@
                          "categoryId":  "c4",
                          "price":  2999,
                          "crossedOutPrice":  3299,
-                         "imgUrl":  "http://192.168.1.117:3000/images/matepad-air.png",
+                         "imgUrl":  "http://100.71.5.138:3000/images/matepad-air.png",
                          "description":  "华为 MatePad Air 平板",
                          "inNew":  false,
                          "isRecommended":  true,
@@ -1072,7 +1072,7 @@
                          "productImages":  [
                                                {
                                                    "colors":  "云雾白",
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matepad-air.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matepad-air.png",
                                                    "isActive":  true,
                                                    "order":  1,
                                                    "product":  "15",
@@ -1081,7 +1081,7 @@
                                                {
                                                    "id":  "15-2",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matepad-air.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matepad-air.png",
                                                    "product":  "15",
                                                    "order":  2,
                                                    "colors":  "海岛蓝"
@@ -1089,7 +1089,7 @@
                                                {
                                                    "id":  "15-3",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matepad-air.png",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matepad-air.png",
                                                    "product":  "15",
                                                    "order":  3,
                                                    "colors":  "烟紫"
@@ -1105,7 +1105,7 @@
                          "categoryId":  "c4",
                          "price":  1899,
                          "crossedOutPrice":  2199,
-                         "imgUrl":  "http://192.168.1.117:3000/images/matepad115.jpg",
+                         "imgUrl":  "http://100.71.5.138:3000/images/matepad115.jpg",
                          "description":  "华为 MatePad 11.5 平板",
                          "inNew":  true,
                          "isRecommended":  false,
@@ -1123,7 +1123,7 @@
                          "productImages":  [
                                                {
                                                    "colors":  "曜石黑",
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matepad115.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matepad115.jpg",
                                                    "isActive":  true,
                                                    "order":  1,
                                                    "product":  "16",
@@ -1132,7 +1132,7 @@
                                                {
                                                    "id":  "16-2",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/matepad115.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/matepad115.jpg",
                                                    "product":  "16",
                                                    "order":  2,
                                                    "colors":  "海岛蓝"
@@ -1148,7 +1148,7 @@
                          "categoryId":  "c1",
                          "price":  1299,
                          "crossedOutPrice":  1499,
-                         "imgUrl":  "http://192.168.1.117:3000/images/freebuds-pro3.jpg",
+                         "imgUrl":  "http://100.71.5.138:3000/images/freebuds-pro3.jpg",
                          "description":  "华为主动降噪耳机",
                          "inNew":  false,
                          "isRecommended":  true,
@@ -1166,7 +1166,7 @@
                          "productImages":  [
                                                {
                                                    "colors":  "曜石黑",
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/freebuds-pro3.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/freebuds-pro3.jpg",
                                                    "isActive":  true,
                                                    "order":  1,
                                                    "product":  "17",
@@ -1175,7 +1175,7 @@
                                                {
                                                    "id":  "17-2",
                                                    "isActive":  true,
-                                                   "imgUrl":  "http://192.168.1.117:3000/images/freebuds-pro3.jpg",
+                                                   "imgUrl":  "http://100.71.5.138:3000/images/freebuds-pro3.jpg",
                                                    "product":  "17",
                                                    "order":  2,
                                                    "colors":  "冰霜银"
@@ -1198,7 +1198,7 @@
                                      "categoryId":  "c2",
                                      "price":  6999,
                                      "crossedOutPrice":  7999,
-                                     "imgUrl":  "http://192.168.1.117:3000/images/mate60pro.png",
+                                     "imgUrl":  "http://100.71.5.138:3000/images/mate60pro.png",
                                      "description":  "华为 Mate 60 Pro 旗舰手机",
                                      "inNew":  true,
                                      "isRecommended":  true,
@@ -1219,7 +1219,7 @@
                                                            {
                                                                "id":  "5-1",
                                                                "isActive":  true,
-                                                               "imgUrl":  "http://192.168.1.117:3000/images/detail/mate60pro/suning-1.jpg",
+                                                               "imgUrl":  "http://100.71.5.138:3000/images/detail/mate60pro/suning-1.jpg",
                                                                "product":  "5",
                                                                "order":  1,
                                                                "colors":  "雅丹黑"
@@ -1227,7 +1227,7 @@
                                                            {
                                                                "id":  "5-2",
                                                                "isActive":  true,
-                                                               "imgUrl":  "http://192.168.1.117:3000/images/detail/mate60pro/suning-2.jpg",
+                                                               "imgUrl":  "http://100.71.5.138:3000/images/detail/mate60pro/suning-2.jpg",
                                                                "product":  "5",
                                                                "order":  2,
                                                                "colors":  "雅丹黑"
@@ -1235,7 +1235,7 @@
                                                            {
                                                                "id":  "5-3",
                                                                "isActive":  true,
-                                                               "imgUrl":  "http://192.168.1.117:3000/images/detail/mate60pro/suning-3.jpg",
+                                                               "imgUrl":  "http://100.71.5.138:3000/images/detail/mate60pro/suning-3.jpg",
                                                                "product":  "5",
                                                                "order":  3,
                                                                "colors":  "雅丹黑"
@@ -1243,7 +1243,7 @@
                                                            {
                                                                "id":  "5-4",
                                                                "isActive":  true,
-                                                               "imgUrl":  "http://192.168.1.117:3000/images/detail/mate60pro/colors/candidate-1.png",
+                                                               "imgUrl":  "http://100.71.5.138:3000/images/detail/mate60pro/colors/candidate-1.png",
                                                                "product":  "5",
                                                                "order":  4,
                                                                "colors":  "白沙银"
@@ -1251,7 +1251,7 @@
                                                            {
                                                                "id":  "5-5",
                                                                "isActive":  true,
-                                                               "imgUrl":  "http://192.168.1.117:3000/images/detail/mate60pro/colors/candidate-2.jpg",
+                                                               "imgUrl":  "http://100.71.5.138:3000/images/detail/mate60pro/colors/candidate-2.jpg",
                                                                "product":  "5",
                                                                "order":  5,
                                                                "colors":  "青山黛"
@@ -1259,7 +1259,7 @@
                                                            {
                                                                "id":  "5-6",
                                                                "isActive":  true,
-                                                               "imgUrl":  "http://192.168.1.117:3000/images/detail/mate60pro/colors/candidate-4.jpg",
+                                                               "imgUrl":  "http://100.71.5.138:3000/images/detail/mate60pro/colors/candidate-4.jpg",
                                                                "product":  "5",
                                                                "order":  6,
                                                                "colors":  "雅丹黑"
@@ -1282,7 +1282,7 @@
                                      "categoryId":  "c1",
                                      "price":  1299,
                                      "crossedOutPrice":  1499,
-                                     "imgUrl":  "http://192.168.1.117:3000/images/freebuds-pro3.jpg",
+                                     "imgUrl":  "http://100.71.5.138:3000/images/freebuds-pro3.jpg",
                                      "description":  "华为主动降噪耳机",
                                      "inNew":  false,
                                      "isRecommended":  true,
@@ -1300,7 +1300,7 @@
                                      "productImages":  [
                                                            {
                                                                "colors":  "曜石黑",
-                                                               "imgUrl":  "http://192.168.1.117:3000/images/freebuds-pro3.jpg",
+                                                               "imgUrl":  "http://100.71.5.138:3000/images/freebuds-pro3.jpg",
                                                                "isActive":  true,
                                                                "order":  1,
                                                                "product":  "17",
@@ -1309,7 +1309,7 @@
                                                            {
                                                                "id":  "17-2",
                                                                "isActive":  true,
-                                                               "imgUrl":  "http://192.168.1.117:3000/images/freebuds-pro3.jpg",
+                                                               "imgUrl":  "http://100.71.5.138:3000/images/freebuds-pro3.jpg",
                                                                "product":  "17",
                                                                "order":  2,
                                                                "colors":  "冰霜银"

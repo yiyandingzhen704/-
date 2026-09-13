@@ -1,7 +1,5 @@
 import { UserService } from '../services/UserService'
-import { RegisterInfo } from '../types/RegisterInfo'
 import { UserInfo } from '../types/UserInfo'
-import { common } from '@kit.AbilityKit'
 import { router } from '@kit.ArkUI'
 
 @Entry
@@ -19,11 +17,19 @@ struct Login {
     if (context) {
       this.userInfo=await UserService.getUserInfo(context)
       if (this.userInfo) {
-        this.phone=this.userInfo.phone
-        this.password=this.userInfo.password
+
+        if (this.userInfo.isLoggedIn) {
+          router.pushUrl({
+            url:'pages/Index'
+          })
+        }else {
+          this.phone=this.userInfo.phone
+          this.password=this.userInfo.password
+        }
       }
     }
   }
+
 
 
   build() {

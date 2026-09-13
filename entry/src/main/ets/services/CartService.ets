@@ -1,5 +1,5 @@
 import { common } from "@kit.AbilityKit";
-import { CartItem } from "../models/CartItem";
+import { CartItem, CartItemData } from "../models/CartItem";
 import { CART_LIST, CART_STORE } from "../config/constants";
 import { PreferenceUtils } from "../utils/PreferenceUtils";
 import { JSON } from "@kit.ArkTS";
@@ -10,7 +10,8 @@ export class CartService{
     try {
       const cartStr= await PreferenceUtils.get(context,CART_STORE,CART_LIST)as string
       if (cartStr) {
-        return await JSON.parse(cartStr)as CartItem[]
+        const data=JSON.parse(cartStr) as CartItemData[]
+        return data.map(item=>CartItem.fromJSON(item))
       }
       return []
     }catch (error){
@@ -27,9 +28,18 @@ export class CartService{
 
   }
   static async addToCart(context:common.Context,item:CartItem):Promise<boolean>{
+    let found=false
     try {
       const list=await CartService.getCart(context)
-      list.push(item)
+      for (let cartItem of list) {
+        if (cartItem.product.id===item.product.id&&cartItem.color===item.color&&cartItem.version===item.version) {
+          found=true
+          cartItem.count++
+        }
+      }
+      if (!found) {
+        list.push(item)
+      }
       await CartService.saveCart(context,list)
       return true
     }catch (error){

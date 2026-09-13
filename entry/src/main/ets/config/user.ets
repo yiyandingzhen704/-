@@ -15,6 +15,20 @@ export  struct user {
       })
     }
   }
+  async logout(){
+    const context=this.getUIContext().getHostContext()
+    if (context) {
+      const userInfo=await UserService.getUserInfo(context)
+      if (userInfo) {
+        userInfo.isLoggedIn=false
+        this.isLoggedIn = false
+        await UserService.setUserInfo(context,userInfo)
+        router.replace({
+          url:'pages/Login'
+        })
+      }
+    }
+  }
   @State isLoggedIn: boolean = false
   @State userName: string = ''
 @State showNavigator:boolean=false
@@ -53,7 +67,12 @@ scroller:Scroller=new Scroller()
       Row(){
         Image($r('app.media.ic_avatar')).width(48).aspectRatio(1)
         if (this.isLoggedIn) {
-          Text(this.userName).fontColor(Color.White).fontSize(18).margin({ left: 12 })
+          Column(){
+            Text(this.userName).fontColor(Color.White).fontSize(18).margin({ left: 12 })
+            Button('退出登录').onClick((event: ClickEvent) => {
+              this.logout()
+            })
+          }
         } else {
           Text('登录/注册').fontColor(Color.White).fontSize(18).margin({ left: 12 })
             .onClick(() => {
