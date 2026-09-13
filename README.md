@@ -13,6 +13,15 @@
 - 个人中心：展示登录后的用户信息，支持退出登录
 - 本地持久化：登录用户信息与购物车数据写入 Preferences，应用重启后仍可恢复
 
+## 界面预览
+
+| 首页 | 商品详情 |
+| :---: | :---: |
+| <img src="screenshots/home.png" width="300" alt="首页" /> | <img src="screenshots/product-detail.png" width="300" alt="商品详情与规格选择" /> |
+| **首页：分类入口与「猜你喜欢」推荐流** | **商品详情：颜色 / 版本规格选择** |
+| <img src="screenshots/cart.png" width="300" alt="购物车" /> | <img src="screenshots/login.png" width="300" alt="登录" /> |
+| **购物车：多选、数量增减与金额统计** | **登录：手机号与密码校验** |
+
 ## 技术栈
 
 | 项 | 说明 |
@@ -50,6 +59,7 @@ ELM
 │   ├── db.json                  接口数据
 │   ├── server.js                统一响应格式的中间件
 │   └── public/images/           商品图片静态资源
+├── screenshots/                 应用运行截图（README 界面预览使用）
 ├── build-profile.json5
 └── oh-package.json5
 ```
